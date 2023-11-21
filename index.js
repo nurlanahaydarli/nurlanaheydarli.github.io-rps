@@ -119,7 +119,7 @@ start_btn.addEventListener('click', function (e) {
                 winner = "Computer"
             }
             start_game.style.display = 'none'
-            done.innerText = `Oyun bitdi!!!! The winner is ${winner} `
+            done.innerHTML = `Oyun bitdi!!!! The winner is <span class="text-danger">${winner}</span> `
         }
     })
     // after click btn hide
